@@ -1,27 +1,32 @@
 import easygopigo3 as easy
 from ultralytics import YOLO
+import cv2 as cv 
+import time
+
+## Creating Camera Object
+cam = cv2.VideoCapture(0)
+
+## Waking the camera up
+for i in range(25):
+    cam.read()
+    time.sleep(0.1)
 
 ## need to move this somewhere better but for now
-upModel = YOLO('Insert Model Here')
-downModel = YOLO('Insert Model Here')
-leftModel = YOLO('Insert Model Here')
-rightModel = YOLO('Insert Model Here')
+myModel = YOLO("yolov8n.pt")
+vehicles = 0
+bad_guys = 1
 
 def explore(EasyGoPiGo3: robot):
     i = 0
-    headingListUp = []
-    headingListDown = []
-    headingListLeft = []
-    headingListRight = []
+    headingList[i]
     while(i < 360):
-        robot.turn_degrees(i)
-        #take an image
-        #predict using the model
-        headingListUp[i] = upModel.predict(source='my image', save=True)
-        headingListDown[i] = downModel.predict(source='my image', save=True)
-        headingListLeft[i] = leftModel.predict(source='my image', save=True)
-        headingListRight[i] = rightModel.predict(source='my image', save=True)
+        ret, image = cam.read()
+        if not ret:
+            ret, image = cam.read()
+        else:
+            headingList[i] = myModel.predict(source=image, save=True, classes=[] )
         i += 1
+        robot.turn_degrees(i)
     return headingListUp, headingListDown, headingListLeft, headingListRight
 
 # must be run IMMEDIATELY after explore
@@ -61,7 +66,7 @@ def main():
     #Starting our maze solving loop
     # TODO this is crude but gets the basic idea
     while(1):
-        take_action(explore(robot), robot)
+        
 
 
     
