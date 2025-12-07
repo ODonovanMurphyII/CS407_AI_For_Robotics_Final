@@ -1,0 +1,16 @@
+# custom_dataset.yaml
+
+# 1. ROOT PATH
+# This is the ABSOLUTE or RELATIVE path to the main directory that contains your 'images' and 'labels' folders.
+path: C:\Users\dm422\OneDrive\school\Central\AI FOR ROBOTS ASSIGNMENTS\final\CS407_AI_For_Robotics_Final\Training_Set
+
+# 2. DATA DIRECTORIES
+# These paths are relative to the 'path' defined above.
+train: images\train  # Folder containing training images
+val: images\val      # Folder containing validation images
+
+# 3. CLASS NAMES
+# The order must match the numerical IDs used in your label files (0, 1, 2, ...).
+names:
+  0: vehicles
+  1: bad guys
