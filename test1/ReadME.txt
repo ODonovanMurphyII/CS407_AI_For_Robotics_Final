@@ -1,0 +1,3 @@
+inferenceTestOnPI.mp4 is one of my first attempts at running inference on the PI using the Yolo model. The confidence threshold for this video was originally very high, around 70 percent. Dropping it down to 30 yielded better results but did not seem to be in alignment with a good model. Ultimately, training time, 24+ hours, prevented me from refining the model further. Also, reducing the speed of the video and correctly positioning the camera resulted in more accuracy.
+
+The PI can be seen running on the desk in the beginning of the video. I did not implement a bounding box around detected bad guys but I did put images with detections in a directory named "not clear" while the others went into a folder named "clear"
