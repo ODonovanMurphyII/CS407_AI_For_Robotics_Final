@@ -21,17 +21,17 @@ class InferenceSubscriber(Node):
         
         self.bridge = CvBridge()
         
-        # Configuration from your original script
+        # Configuration from main.py sandbox
         self.my_model = YOLO("best.pt")
         self.VEHICALS = 0
         self.BAD_GUYS = 1
         self.THRESHOLD = 0.30
         
-        # Setup directories
+        # Setup directories to save classified images
         os.makedirs("./clear", exist_ok=True)
         os.makedirs("./notclear", exist_ok=True)
         
-        # Counter for filenames (replacing the loop iterator)
+        # Counter for filenames
         self.image_count = 0
         
         self.get_logger().info("Inference Node Started. Waiting for images...")
@@ -46,7 +46,7 @@ class InferenceSubscriber(Node):
             # Note: verbose=False reduces console spam
             result = self.my_model.predict(source=current_frame, classes=[self.BAD_GUYS], verbose=False)
             
-            # Extract confidence (handle case where no boxes are found)
+            # Extract confidence
             confidence = result[0].boxes.conf[0].item() if result[0].boxes and len(result[0].boxes) > 0 else 0
             
             # Define filenames
@@ -59,13 +59,7 @@ class InferenceSubscriber(Node):
                 cv2.imwrite(bad_guys_filename, current_frame)
                 self.get_logger().info(f"Image saved: {bad_guys_filename}")
                 
-                # --- ROBOT ACTION HERE ---
-                # If you re-integrate EasyGoPiGo3, this is where you would 
-                # call robot.stop() or take evasive action.
-                
             else:
-                # Optional: Uncomment if you want to log 'Clear' status every frame
-                # self.get_logger().info("ALL CLEAR")
                 cv2.imwrite(all_clear_filename, current_frame)
                 
             self.image_count += 1
