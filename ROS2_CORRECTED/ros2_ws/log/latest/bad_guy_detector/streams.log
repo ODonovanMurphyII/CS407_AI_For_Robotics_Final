@@ -1,0 +1,20 @@
+[0.867s] Invoking command in '/root/workspace/ros2_ws/build/bad_guy_detector': PYTHONPATH=/root/workspace/ros2_ws/build/bad_guy_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspace/ros2_ws/install/bad_guy_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/workspace/ros2_ws/build/bad_guy_detector/build --no-deps symlink_data --force
+[1.179s] running develop
+[1.328s] running egg_info
+[1.343s] writing bad_guy_detector.egg-info/PKG-INFO
+[1.344s] writing dependency_links to bad_guy_detector.egg-info/dependency_links.txt
+[1.344s] writing entry points to bad_guy_detector.egg-info/entry_points.txt
+[1.345s] writing requirements to bad_guy_detector.egg-info/requires.txt
+[1.346s] writing top-level names to bad_guy_detector.egg-info/top_level.txt
+[1.378s] reading manifest file 'bad_guy_detector.egg-info/SOURCES.txt'
+[1.379s] writing manifest file 'bad_guy_detector.egg-info/SOURCES.txt'
+[1.396s] running build_ext
+[1.396s] Creating /root/workspace/ros2_ws/install/bad_guy_detector/lib/python3.12/site-packages/bad-guy-detector.egg-link (link to .)
+[1.397s] Installing cam script to /root/workspace/ros2_ws/install/bad_guy_detector/lib/bad_guy_detector
+[1.397s] Installing detector script to /root/workspace/ros2_ws/install/bad_guy_detector/lib/bad_guy_detector
+[1.397s] 
+[1.397s] Installed /root/workspace/ros2_ws/build/bad_guy_detector
+[1.399s] running symlink_data
+[1.399s] symbolically linking /root/workspace/ros2_ws/build/bad_guy_detector/resource/bad_guy_detector -> /root/workspace/ros2_ws/install/bad_guy_detector/share/ament_index/resource_index/packages
+[1.399s] symbolically linking /root/workspace/ros2_ws/build/bad_guy_detector/package.xml -> /root/workspace/ros2_ws/install/bad_guy_detector/share/bad_guy_detector
+[1.472s] Invoked command in '/root/workspace/ros2_ws/build/bad_guy_detector' returned '0': PYTHONPATH=/root/workspace/ros2_ws/build/bad_guy_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspace/ros2_ws/install/bad_guy_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /root/workspace/ros2_ws/build/bad_guy_detector/build --no-deps symlink_data --force

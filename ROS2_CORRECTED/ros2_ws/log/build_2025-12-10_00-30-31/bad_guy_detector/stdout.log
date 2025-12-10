@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing bad_guy_detector.egg-info/PKG-INFO
+writing dependency_links to bad_guy_detector.egg-info/dependency_links.txt
+writing entry points to bad_guy_detector.egg-info/entry_points.txt
+writing requirements to bad_guy_detector.egg-info/requires.txt
+writing top-level names to bad_guy_detector.egg-info/top_level.txt
+reading manifest file 'bad_guy_detector.egg-info/SOURCES.txt'
+writing manifest file 'bad_guy_detector.egg-info/SOURCES.txt'
+running build_ext
+Creating /root/workspace/ros2_ws/install/bad_guy_detector/lib/python3.12/site-packages/bad-guy-detector.egg-link (link to .)
+Installing cam script to /root/workspace/ros2_ws/install/bad_guy_detector/lib/bad_guy_detector
+Installing detector script to /root/workspace/ros2_ws/install/bad_guy_detector/lib/bad_guy_detector
+
+Installed /root/workspace/ros2_ws/build/bad_guy_detector
+running symlink_data
+symbolically linking /root/workspace/ros2_ws/build/bad_guy_detector/resource/bad_guy_detector -> /root/workspace/ros2_ws/install/bad_guy_detector/share/ament_index/resource_index/packages
+symbolically linking /root/workspace/ros2_ws/build/bad_guy_detector/package.xml -> /root/workspace/ros2_ws/install/bad_guy_detector/share/bad_guy_detector
