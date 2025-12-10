@@ -1,0 +1,25 @@
+[0.842s] Invoking command in '/root/workspace/ros2_ws/src/bad_guy_detector': PYTHONPATH=/root/workspace/ros2_ws/build/bad_guy_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspace/ros2_ws/install/bad_guy_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bad_guy_detector build --build-base /root/workspace/ros2_ws/build/bad_guy_detector/build install --record /root/workspace/ros2_ws/build/bad_guy_detector/install.log --single-version-externally-managed install_data
+[1.097s] running egg_info
+[1.112s] writing ../../build/bad_guy_detector/bad_guy_detector.egg-info/PKG-INFO
+[1.112s] writing dependency_links to ../../build/bad_guy_detector/bad_guy_detector.egg-info/dependency_links.txt
+[1.113s] writing entry points to ../../build/bad_guy_detector/bad_guy_detector.egg-info/entry_points.txt
+[1.114s] writing requirements to ../../build/bad_guy_detector/bad_guy_detector.egg-info/requires.txt
+[1.115s] writing top-level names to ../../build/bad_guy_detector/bad_guy_detector.egg-info/top_level.txt
+[1.147s] reading manifest file '../../build/bad_guy_detector/bad_guy_detector.egg-info/SOURCES.txt'
+[1.148s] writing manifest file '../../build/bad_guy_detector/bad_guy_detector.egg-info/SOURCES.txt'
+[1.149s] running build
+[1.149s] running build_py
+[1.149s] copying bad_guy_detector/publisher.py -> /root/workspace/ros2_ws/build/bad_guy_detector/build/lib/bad_guy_detector
+[1.149s] running install
+[1.158s] running install_lib
+[1.173s] copying /root/workspace/ros2_ws/build/bad_guy_detector/build/lib/bad_guy_detector/publisher.py -> /root/workspace/ros2_ws/install/bad_guy_detector/lib/python3.12/site-packages/bad_guy_detector
+[1.174s] byte-compiling /root/workspace/ros2_ws/install/bad_guy_detector/lib/python3.12/site-packages/bad_guy_detector/publisher.py to publisher.cpython-312.pyc
+[1.175s] running install_data
+[1.175s] running install_egg_info
+[1.192s] removing '/root/workspace/ros2_ws/install/bad_guy_detector/lib/python3.12/site-packages/bad_guy_detector-0.0.0-py3.12.egg-info' (and everything under it)
+[1.193s] Copying ../../build/bad_guy_detector/bad_guy_detector.egg-info to /root/workspace/ros2_ws/install/bad_guy_detector/lib/python3.12/site-packages/bad_guy_detector-0.0.0-py3.12.egg-info
+[1.194s] running install_scripts
+[1.304s] Installing cam script to /root/workspace/ros2_ws/install/bad_guy_detector/lib/bad_guy_detector
+[1.305s] Installing detector script to /root/workspace/ros2_ws/install/bad_guy_detector/lib/bad_guy_detector
+[1.306s] writing list of installed files to '/root/workspace/ros2_ws/build/bad_guy_detector/install.log'
+[1.374s] Invoked command in '/root/workspace/ros2_ws/src/bad_guy_detector' returned '0': PYTHONPATH=/root/workspace/ros2_ws/build/bad_guy_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/root/workspace/ros2_ws/install/bad_guy_detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bad_guy_detector build --build-base /root/workspace/ros2_ws/build/bad_guy_detector/build install --record /root/workspace/ros2_ws/build/bad_guy_detector/install.log --single-version-externally-managed install_data

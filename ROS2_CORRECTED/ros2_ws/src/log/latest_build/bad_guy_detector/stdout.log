@@ -1,0 +1,39 @@
+running egg_info
+creating ../build/bad_guy_detector/bad_guy_detector.egg-info
+writing ../build/bad_guy_detector/bad_guy_detector.egg-info/PKG-INFO
+writing dependency_links to ../build/bad_guy_detector/bad_guy_detector.egg-info/dependency_links.txt
+writing entry points to ../build/bad_guy_detector/bad_guy_detector.egg-info/entry_points.txt
+writing requirements to ../build/bad_guy_detector/bad_guy_detector.egg-info/requires.txt
+writing top-level names to ../build/bad_guy_detector/bad_guy_detector.egg-info/top_level.txt
+writing manifest file '../build/bad_guy_detector/bad_guy_detector.egg-info/SOURCES.txt'
+reading manifest file '../build/bad_guy_detector/bad_guy_detector.egg-info/SOURCES.txt'
+writing manifest file '../build/bad_guy_detector/bad_guy_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /root/workspace/ros2_ws/src/build/bad_guy_detector/build
+creating /root/workspace/ros2_ws/src/build/bad_guy_detector/build/lib
+creating /root/workspace/ros2_ws/src/build/bad_guy_detector/build/lib/bad_guy_detector
+copying bad_guy_detector/subscriber.py -> /root/workspace/ros2_ws/src/build/bad_guy_detector/build/lib/bad_guy_detector
+copying bad_guy_detector/publisher.py -> /root/workspace/ros2_ws/src/build/bad_guy_detector/build/lib/bad_guy_detector
+copying bad_guy_detector/__init__.py -> /root/workspace/ros2_ws/src/build/bad_guy_detector/build/lib/bad_guy_detector
+running install
+running install_lib
+creating /root/workspace/ros2_ws/src/install/bad_guy_detector/lib/python3.12/site-packages/bad_guy_detector
+copying /root/workspace/ros2_ws/src/build/bad_guy_detector/build/lib/bad_guy_detector/subscriber.py -> /root/workspace/ros2_ws/src/install/bad_guy_detector/lib/python3.12/site-packages/bad_guy_detector
+copying /root/workspace/ros2_ws/src/build/bad_guy_detector/build/lib/bad_guy_detector/publisher.py -> /root/workspace/ros2_ws/src/install/bad_guy_detector/lib/python3.12/site-packages/bad_guy_detector
+copying /root/workspace/ros2_ws/src/build/bad_guy_detector/build/lib/bad_guy_detector/__init__.py -> /root/workspace/ros2_ws/src/install/bad_guy_detector/lib/python3.12/site-packages/bad_guy_detector
+byte-compiling /root/workspace/ros2_ws/src/install/bad_guy_detector/lib/python3.12/site-packages/bad_guy_detector/subscriber.py to subscriber.cpython-312.pyc
+byte-compiling /root/workspace/ros2_ws/src/install/bad_guy_detector/lib/python3.12/site-packages/bad_guy_detector/publisher.py to publisher.cpython-312.pyc
+byte-compiling /root/workspace/ros2_ws/src/install/bad_guy_detector/lib/python3.12/site-packages/bad_guy_detector/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /root/workspace/ros2_ws/src/install/bad_guy_detector/share/ament_index
+creating /root/workspace/ros2_ws/src/install/bad_guy_detector/share/ament_index/resource_index
+creating /root/workspace/ros2_ws/src/install/bad_guy_detector/share/ament_index/resource_index/packages
+copying resource/bad_guy_detector -> /root/workspace/ros2_ws/src/install/bad_guy_detector/share/ament_index/resource_index/packages
+copying package.xml -> /root/workspace/ros2_ws/src/install/bad_guy_detector/share/bad_guy_detector
+running install_egg_info
+Copying ../build/bad_guy_detector/bad_guy_detector.egg-info to /root/workspace/ros2_ws/src/install/bad_guy_detector/lib/python3.12/site-packages/bad_guy_detector-0.0.0-py3.12.egg-info
+running install_scripts
+Installing cam script to /root/workspace/ros2_ws/src/install/bad_guy_detector/lib/bad_guy_detector
+Installing detector script to /root/workspace/ros2_ws/src/install/bad_guy_detector/lib/bad_guy_detector
+writing list of installed files to '/root/workspace/ros2_ws/src/build/bad_guy_detector/install.log'
