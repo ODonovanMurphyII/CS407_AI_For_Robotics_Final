@@ -11,7 +11,8 @@ Build an AI model that has been trained to recognize left, right, forward, and b
 
 
 Modified Goal:   
-Build an AI model that will reconize bad guys in Viruta Cop 2.      
+Build an AI model that will reconize bad guys in Viruta Cop 2. 
+Hardware used: Raspberry pi 5.     
 Distro Used: Debian Linux 12 with Docker Container: ROS2 YOLO distro   
 Labeler: Yolo Label    
 
